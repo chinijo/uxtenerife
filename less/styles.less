@@ -18,19 +18,15 @@ body {
 }
 
 
-.marketing-box {
-  padding: 10px;
-  border-radius: 5px;
 
   // Media queries for different behaviors of this element on different resolutions.
   @media (min-width: @screen-lg-min) {
-  	background-color: @orange;
   }
   @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
-  	background-color: @dark-blue;	
+  	
   }
-  @media (max-width: @screen-sm-max) {
-  	margin-bottom: 20px;
-  	background-color: @green;
+  @media (max-width: 740px) {
+    #mainBanner {
+      display: none;
+    }
   } 
-}

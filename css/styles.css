@@ -5780,23 +5780,8 @@ body {
   background-color: #33b5e5;
   color: #fff;
 }
-.marketing-box {
-  padding: 10px;
-  border-radius: 5px;
-}
-@media (min-width: 1200px) {
-  .marketing-box {
-    background-color: #ffbb33;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .marketing-box {
-    background-color: #0099cc;
-  }
-}
-@media (max-width: 991px) {
-  .marketing-box {
-    margin-bottom: 20px;
-    background-color: #99cc00;
+@media (max-width: 740px) {
+  #mainBanner {
+    display: none;
   }
 }
