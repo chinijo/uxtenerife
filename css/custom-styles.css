@@ -30,10 +30,26 @@ div.tab-content > div.tab-pane {
 	border: none;
 	top: 1px;
 }
+.nav-tabs > li > a { 
+	text-align: center;
+	color: white !important;
+}
+.nav-tabs > li > a img { 
+	display: block;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	border: 1px solid transparent;
+	background-color: rgba(0,0,0,0.2);
+}
 .nav-tabs {
 	border-bottom: none;
 }
 #search {
-	position: relative;
-	top: -250px;
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+footer {
+	position: fixed;
+	bottom: 0;
 }
