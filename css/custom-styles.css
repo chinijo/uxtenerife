@@ -1,0 +1,39 @@
+body > div.navbar, 
+#entra a { 
+	background: white;
+}
+#entra a {
+	color: black;
+}
+#registrate {
+	background: #06A5DF;
+}
+#registrate a {
+	color: white;
+}
+#mainBanner {
+	margin-top: 50px;
+	width: 100%;
+}
+div.marketing-box img {
+	margin: 0 auto;
+	display: block;
+}
+div h2 {
+	display: inline;
+}
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus, 
+div.tab-content > div.tab-pane {
+	background: rgba(138,232,204,0.5);
+	border: none;
+	top: 1px;
+}
+.nav-tabs {
+	border-bottom: none;
+}
+#search {
+	position: relative;
+	top: -250px;
+}
