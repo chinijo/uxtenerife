@@ -33,6 +33,7 @@ div.tab-content > div.tab-pane {
 .nav-tabs > li > a { 
 	text-align: center;
 	color: white !important;
+	width: 60% !important;
 }
 .nav-tabs > li > a img { 
 	display: block;
