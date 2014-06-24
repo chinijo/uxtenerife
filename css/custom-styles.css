@@ -13,7 +13,7 @@ body > div.navbar,
 }
 #mainBanner {
 	margin-top: 50px;
-	width: 100%;
+	width: 100%; 
 }
 div.marketing-box img {
 	margin: 0 auto;
@@ -22,21 +22,39 @@ div.marketing-box img {
 div h2 {
 	display: inline;
 }
+.navbar-brand img {
+	max-height: 22px !important;
+}
+.navbar-inverse {
+	border: none;
+}
 .nav-tabs > li.active > a, 
 .nav-tabs > li.active > a:hover, 
 .nav-tabs > li.active > a:focus, 
 div.tab-content > div.tab-pane {
-	background: rgba(138,232,204,0.5);
-	border: none;
-	top: 1px;
+	background: rgba(138,232,204,0.8);
+	background: rgba(0,0,0,0.5);
+	border: 1px solid transparent;
+	position: relative;
+	top: 2px !important;
+	padding: 20px;
+}
+div.tab-content > div.tab-pane {
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	padding: 20px;
+}
+div.tab-content > div.tab-pane div.input-group {
+	max-width: 50%;
 }
 .nav-tabs > li > a { 
 	text-align: center;
 	color: white !important;
-	width: 60% !important;
+	padding: 20px;
 }
 .nav-tabs > li > a img { 
 	display: block;
+	margin: 0 auto;
 }
 .nav > li > a:hover, .nav > li > a:focus {
 	border: 1px solid transparent;
@@ -53,4 +71,20 @@ div.tab-content > div.tab-pane {
 footer {
 	position: fixed;
 	bottom: 0;
+}
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+	background: rgba(138,232,204,1);
+}
+.btn-default {
+	color: #333333;
+	background-color: #ffffff;
+	border-color: transparent;
+}
+
+
+
+@media (max-width: 740px) {
+	.nav-tabs > li > a img { 
+		width: 30% !important;
+	}
 }
